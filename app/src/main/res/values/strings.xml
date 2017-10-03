@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MiniMax Plywood</string>
+
+    <string name="products">Products</string>
+    <string name="about_us">About Us</string>
+    <string name="contact">Contact</string>
+
+    <string name="parveen">Parveen Gupta (M.D.)</string>
+    <string name="company_address">Court Road Jagadhri, Haryana - 135003</string>
+    <string name="company_phone">+91-1732-234088, 326001</string>
+    <string name="company_fax">+91-1732-234089 (fax)</string>
+    <string name="company_mobile">+91-9896004040</string>
+    <string name="company_email">info@minimaxplywood.com</string>
+    <string name="company_site">www.minimaxplywood.com</string>
+
+</resources>
