@@ -26,6 +26,7 @@ class ContactActivity : AppCompatActivity() {
      * ui functions
      */
     private fun initUI() {
+        window.decorView.setBackgroundResource(R.drawable.contact_background)
         setUpToolbar()
     }
 

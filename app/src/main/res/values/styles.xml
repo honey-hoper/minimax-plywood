@@ -25,8 +25,16 @@
         <item name="android:textColor">@color/lightBlack</item>
     </style>
 
+    <style name="TextNormal.White" parent="TextNormal">
+        <item name="android:textColor">#E9E9E9</item>
+    </style>
+
     <style name="TextNormal.Bold" parent="TextNormal">
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextNormal.Bold.White" parent="TextNormal.Bold">
+        <item name="android:textColor">#E9E9E9</item>
     </style>
 
     <style name="TextLarge" parent="AppTheme.NoActionBar">
@@ -34,8 +42,16 @@
         <item name="android:textColor">@color/lightBlack</item>
     </style>
 
+    <style name="TextLarge.White" parent="TextLarge">
+        <item name="android:textColor">#E9E9E9</item>
+    </style>
+
     <style name="TextLarge.Bold" parent="TextLarge">
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextLarge.Bold.White" parent="TextLarge.Bold">
+        <item name="android:textColor">#E9E9E9</item>
     </style>
     <!-- text -->
 

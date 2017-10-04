@@ -27,8 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,50 +38,45 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:theme="@style/TextLarge.Bold"
+                android:theme="@style/TextLarge.Bold.White"
                 android:text="@string/parveen"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:theme="@style/TextNormal"
+                android:theme="@style/TextNormal.White"
                 android:text="@string/company_address"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal"
+                android:theme="@style/TextNormal.White"
                 android:text="@string/company_phone"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal"
+                android:theme="@style/TextNormal.White"
                 android:text="@string/company_fax"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal"
+                android:theme="@style/TextNormal.White"
                 android:text="@string/company_mobile"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal"
+                android:theme="@style/TextNormal.White"
                 android:text="@string/company_email"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal"
+                android:theme="@style/TextNormal.White"
                 android:text="@string/company_site"/>
-
         </LinearLayout>
-
-
-
     </RelativeLayout>
-
 </android.support.design.widget.CoordinatorLayout>
