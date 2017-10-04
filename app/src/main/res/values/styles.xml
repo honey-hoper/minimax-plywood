@@ -19,6 +19,10 @@
         <item name="windowActionModeOverlay">true</item>
     </style>
 
+    <style name="Splash" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+    </style>
+
     <!-- text -->
     <style name="TextNormal" parent="AppTheme.NoActionBar">
         <item name="android:textSize">14sp</item>
