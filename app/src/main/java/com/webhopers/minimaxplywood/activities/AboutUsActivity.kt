@@ -26,6 +26,7 @@ class AboutUsActivity : AppCompatActivity() {
      * ui functions
      */
     private fun initUI() {
+        window.decorView.setBackgroundColor(R.color.lightBlack)
         setUpToolbar()
         setTextContent()
     }
@@ -43,12 +44,12 @@ class AboutUsActivity : AppCompatActivity() {
 
         val pre =   "<html>" +
                         "<body>" +
-                            "<p align=\"justify\" style=\"padding:10px;\">"
+                            "<p align=\"justify\" style=\"padding:10px; color:#ffffff;\">"
         val post =          "</p>" +
                         "</body>" +
                     "</html>"
 
-        val html = pre + textP1 + "</p><p align=\"justify\" style=\"padding:10px;\">" + textP2 + post
+        val html = pre + textP1 + "</p><p align=\"justify\" style=\"padding:10px; color:#ffffff;\">" + textP2 + post
 
         aau_web_view.loadData(html, "text/html", "utf-8")
         aau_web_view.setBackgroundColor(Color.TRANSPARENT)
