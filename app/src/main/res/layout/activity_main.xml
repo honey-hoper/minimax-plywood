@@ -67,10 +67,9 @@
                             android:src="@drawable/img_btn_products" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="16dp"
+                            android:gravity="bottom|center"
                             android:text="@string/products"
                             android:theme="@style/TextNormal.Bold" />
                     </LinearLayout>
@@ -100,10 +99,9 @@
                             android:src="@drawable/img_btn_about" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="16dp"
+                            android:gravity="bottom|center"
                             android:text="@string/about_us"
                             android:theme="@style/TextNormal.Bold" />
                     </LinearLayout>
@@ -140,10 +138,9 @@
                             android:src="@drawable/img_btn_contact" />
 
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="16dp"
+                            android:gravity="bottom|center"
                             android:text="@string/contact"
                             android:theme="@style/TextNormal.Bold" />
                     </LinearLayout>

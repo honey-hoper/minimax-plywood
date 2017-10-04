@@ -38,44 +38,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:theme="@style/TextLarge.Bold.White"
+                android:theme="@style/TextLarge.Bold"
                 android:text="@string/parveen"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:theme="@style/TextNormal.White"
+                android:theme="@style/TextNormal"
                 android:text="@string/company_address"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal.White"
+                android:theme="@style/TextNormal"
                 android:text="@string/company_phone"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal.White"
+                android:theme="@style/TextNormal"
                 android:text="@string/company_fax"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal.White"
+                android:theme="@style/TextNormal"
                 android:text="@string/company_mobile"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal.White"
+                android:theme="@style/TextNormal"
                 android:text="@string/company_email"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/TextNormal.White"
+                android:theme="@style/TextNormal"
                 android:text="@string/company_site"/>
         </LinearLayout>
     </RelativeLayout>
