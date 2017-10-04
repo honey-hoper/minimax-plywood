@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         am_about_btn.setOnClickListener { startAboutUsActivity() }
         am_contact_btn.setOnClickListener { startContactActivity() }
+        am_product_btn.setOnClickListener { startProductsActivity() }
     }
 
     /**
@@ -26,5 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     fun startContactActivity() {
         startActivity(Intent(this, ContactActivity::class.java))
+    }
+
+    fun startProductsActivity() {
+        startActivity(Intent(this, ProductsActivity::class.java))
     }
 }
